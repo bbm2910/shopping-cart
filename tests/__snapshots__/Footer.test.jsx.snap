@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer component > renders the footer with copyright text 1`] = `
+<div>
+  <footer>
+    © BM 2024
+  </footer>
+</div>
+`;

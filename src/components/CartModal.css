@@ -1,0 +1,88 @@
+.MuiPaper-root {
+	min-width: 50%;
+	height: 100%;
+}
+.item-in-cart {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: auto;
+	width: 95%;
+	text-align: right;
+	border-bottom: 1px solid #14213d;
+	padding: 0% 6% 0% 6%;
+	margin-top: 50px;
+	box-shadow: inset 0px 0px 25px -7px rgba(0, 0, 0, 0.1);
+}
+.product-details {
+	margin-top: 10%;
+}
+.product-details button {
+	margin-top: 5%;
+	background-color: #d83f31;
+	border: 1px solid #d83f31;
+	color: #fff;
+	font-size: 0.7rem;
+	padding: 0;
+}
+
+.product-details button:hover {
+	background-color: #fff;
+	color: #d83f31;
+	border: 1px solid #d83f31;
+}
+.product-quantity {
+	font-weight: 300;
+}
+.product-price {
+	font-weight: 500;
+}
+.product-quantity span {
+	font-weight: 600;
+}
+.item-in-cart-title {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.item-in-cart img {
+	width: 50%;
+}
+.empty-cart {
+	text-align: center;
+	margin-top: 20%;
+}
+.empty-cart-icon {
+	text-align: center;
+	width: 15%;
+	margin-top: 5%;
+	margin-left: 43%;
+	transition-duration: 0.3s;
+}
+.success-order {
+	text-align: center;
+	font-size: 1.3rem;
+	color: #000;
+	padding: 2%;
+}
+.success-order img {
+	width: 5%;
+}
+.dialog-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.close-cart-icon {
+	order: 2;
+}
+.total-price {
+	text-align: right;
+	margin: 3%;
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.warning-closing-cart {
+	font-size: 0.8rem;
+	color: #d83f31;
+	margin: 3%;
+}

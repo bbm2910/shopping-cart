@@ -1,0 +1,83 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > renders without crashing 1`] = `
+<div>
+  <div>
+    <nav>
+      <div
+        class="links"
+      >
+        <a
+          href="/"
+        >
+          Homepage
+        </a>
+        <a
+          href="/shop"
+        >
+          Shop
+        </a>
+        <a
+          href="/about"
+        >
+          About
+        </a>
+      </div>
+      <a
+        class="cart-btn"
+        href="/shop"
+      >
+        <img
+          alt=""
+          src="/src/assets/shopping-cart.svg"
+        />
+        <p>
+          0
+        </p>
+      </a>
+    </nav>
+    <div
+      class="homepage"
+    >
+      <h2
+        id="text1"
+      >
+        Unbeatable Prices
+      </h2>
+      <h2
+        id="text2"
+      >
+        Doorbuster Price
+      </h2>
+      <h2
+        id="text3"
+      >
+        Exclusive Promotions
+      </h2>
+      <h2
+        id="text4"
+      >
+        Markdown Madness
+      </h2>
+      <h2
+        id="text5"
+      >
+        Clearance Event
+      </h2>
+      <h2
+        id="text6"
+      >
+        Limited-Time Offer
+      </h2>
+      <h2
+        id="text7"
+      >
+        Mega Salet
+      </h2>
+    </div>
+  </div>
+  <footer>
+    © BM 2024
+  </footer>
+</div>
+`;

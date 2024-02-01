@@ -1,0 +1,18 @@
+.about {
+	margin: 2% 10%;
+}
+.about h1 {
+	margin-bottom: 5%;
+}
+.about p {
+	margin-bottom: 2%;
+}
+.about a:hover {
+	text-decoration: underline;
+}
+.about-back-link {
+	background-color: #fca311;
+	color: #000;
+	padding: 0.5% 2%;
+	border-radius: 3px;
+}
